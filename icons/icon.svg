@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Permiso de Trabajo</title>
+  <desc id="desc">Icono degradado rojo a morado con escudo y check</desc>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3355"/>
+      <stop offset="50%" stop-color="#d4338f"/>
+      <stop offset="100%" stop-color="#6b2cf5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#g)"/>
+  <g filter="url(#shadow)" transform="translate(96 96)">
+    <path d="M160 0l144 48v128c0 106-96 168-144 192-48-24-144-86-144-192V48z" fill="#fff" opacity="0.96"/>
+    <path d="M111 167l51 51 88-108" fill="none" stroke="url(#g)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

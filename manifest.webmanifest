@@ -1,0 +1,15 @@
+{
+  "name": "Permiso de Trabajo PWA",
+  "short_name": "Permiso",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1a0f2b",
+  "theme_color": "#ff3366",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
